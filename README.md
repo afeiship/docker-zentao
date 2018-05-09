@@ -1,6 +1,10 @@
 # docker-zentao
 > docker for zentao.
 
+## how to install
+```conf
+docker-compose up -d
+```
 
 ## reousces:
 + https://github.com/idoop/zentao
@@ -20,4 +24,6 @@ admin/123456
 ## start:
 docker-compose up -d
 
+## stop:
+docker-compose down
 ```
