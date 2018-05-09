@@ -4,8 +4,8 @@ services:
     image: idoop/zentao:latest
     container_name: zentao
     ports:
-      - "80:80"
-      - "3306:3306"
+      - "8899:80"
+      - "3399:3306"
     # if web response code: 310 ERR_TOO_MANY_REDIRECTS, please use host mode.
 #    network_mode: "host"
     environment:
